@@ -1,0 +1,63 @@
+# ===================================================================
+# BACKEND - JAVA / MAVEN / SPRING BOOT
+# ===================================================================
+# Carpeta donde Maven guarda los archivos compilados (.class, .jar)
+target/
+*.jar
+*.war
+*.ear
+*.class
+
+# ===================================================================
+# FRONTEND - NODE.JS / REACT / VITE
+# ===================================================================
+# Dependencias descargadas por npm (se regeneran con "npm install")
+node_modules/
+
+# Carpetas de compilación para producción
+dist/
+dist-ssr/
+
+# Archivos de configuración local y registros de errores
+*.local
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ===================================================================
+# EDITORES E IDEs, ASISTENTE IA Y DOCUMENTACIÓN LOCAL
+# ===================================================================
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.agents/
+openspec/
+
+# ===================================================================
+# ARCHIVOS DE SUBIDAS, SECRETOS Y PRUEBAS LOCALES
+# ===================================================================
+# Imágenes subidas en tiempo de ejecución (tanto en raíz como en backend/)
+uploads/
+
+# Archivos de variables de entorno con claves sensibles
+.env
+.env.*
+!.env.example
+
+# Archivos sueltos de pruebas y scripts locales en la raíz
+json_request.json
+login_request.json
+reset.sql
+tienda.sql
+
+# ===================================================================
+# SISTEMA OPERATIVO
+# ===================================================================
+.DS_Store
+Thumbs.db
+
